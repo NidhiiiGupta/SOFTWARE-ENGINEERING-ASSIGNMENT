@@ -15,14 +15,15 @@ This project presents a Linux-based automation system designed to enhance system
 - **Linux Utility Integration**: Uses `grep`, `awk`, `sed`, and other system tools.  
 - **Performance Analysis**: Optimized for efficiency with logging and risk mitigation strategies.  
 
- 📂 Project Structure
- 
- 📦 linux-automation-project  # The root project folder
- ┣ 📂 docs                    # A folder for documentation files
- ┃ ┗ 📜 software_design.md    # A file inside 'docs' containing software architecture documentation
- ┣ 📂 scripts                 # A folder for shell scripts
- ┃ ┗ 📝 log_monitor.sh        # The main shell script for log monitoring
- ┣ 📜 README.md               # A README file that provides an overview of the project
+ 📂 Project Structure 
+
+- 📦 **linux-automation-project** (Root project folder)  
+  - 📂 **docs** (Documentation folder)  
+    - 📜 *software_design.md* (Software architecture documentation)  
+  - 📂 **scripts** (Shell scripts folder)  
+    - 📝 *log_monitor.sh* (Main log monitoring script)  
+  - 📜 *README.md* (Project overview)  
+
 
  ## 🛠️ Technologies Used  
 - **Shell Scripting (Bash)**  
