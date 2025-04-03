@@ -46,4 +46,22 @@ sudo apt update && sudo apt install mailutils
 ```
 
 ---
+
+## 🔍 Risk Management & Mitigation Strategies  
+
+| **Risk**                   | **Impact**                                      | **Mitigation Strategy**                           |
+|----------------------------|------------------------------------------------|--------------------------------------------------|
+| **Incorrect log parsing**  | Missed critical errors                         | Ensure regex filters are thoroughly tested      |
+| **Insufficient permissions** | Script fails to access logs                    | Run with appropriate user privileges            |
+| **Email delivery failure** | Alerts not sent                                | Use a backup notification system (e.g., Slack) |
+| **High resource consumption** | System slowdown during execution               | Optimize script execution and logging frequency |
+| **Cron job failure**       | Automation does not run as expected            | Verify crontab settings and error logs         |
+
+---
+
+## 📌 Testing Strategy  
+
+- Run `shellcheck log_monitor.sh` to check for syntax errors.  
+- Use `bats` for unit testing (if applicable).  
+- Monitor performance with `top`, `htop`, `time`, `iostat`, or `vmstat`.  
          
