@@ -27,4 +27,13 @@ This document outlines the software architecture for a **Linux-based automation 
 
 ---
 
+## 🔄 Data Flow Diagram (DFD)  
+
+### **Level 0: Context Diagram**  
+The following diagram provides a high-level overview of the system and its interactions:  
+
+### **Level 1: Detailed Process Flow**  
+This diagram details how the system processes logs, filters errors, and sends alerts:  
+
+---
 
