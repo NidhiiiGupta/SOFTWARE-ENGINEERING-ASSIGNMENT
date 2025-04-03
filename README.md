@@ -36,5 +36,6 @@ This project presents a Linux-based automation system designed to enhance system
    ```sh 
    chmod +x scripts/log_monitor.sh
 3. **Run the script**:
+   ```sh
    ./scripts/log_monitor.sh
   
