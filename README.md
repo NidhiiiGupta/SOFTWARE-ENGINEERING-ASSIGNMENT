@@ -15,6 +15,7 @@ This project presents a Linux-based automation system designed to enhance system
 - **Linux Utility Integration**: Uses `grep`, `awk`, `sed`, and other system tools.  
 - **Performance Analysis**: Optimized for efficiency with logging and risk mitigation strategies.  
 
+---
  📂 Project Structure 
 
 - 📦 **linux-automation-project** (Root project folder)  
