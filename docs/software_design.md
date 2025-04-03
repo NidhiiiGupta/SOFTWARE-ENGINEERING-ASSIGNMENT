@@ -43,4 +43,7 @@ This diagram details how the system processes logs, filters errors, and sends al
 Ensure the following dependencies are installed:  
 ```sh
 sudo apt update && sudo apt install mailutils
-                                                          ---
+```
+
+---
+         
