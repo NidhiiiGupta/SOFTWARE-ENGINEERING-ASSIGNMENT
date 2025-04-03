@@ -39,3 +39,18 @@ This project presents a Linux-based automation system designed to enhance system
    ```sh
    ./scripts/log_monitor.sh
   
+
+## 🔄 Software Configuration Management (SCM)
+
+### **Version Control with Git**  
+- All files are managed using **Git**, with **separate branches** for different features.  
+- Change management is handled through **commits, pull requests, and merges**.  
+
+### **Versioning Strategy**  
+
+| **Version** | **Changes** |
+|------------|------------|
+| **v1.0**   | Initial implementation of log monitoring script |
+| **v1.1**   | Added error logging and email alerts |
+| **v1.2**   | Optimized script execution and cron job support |
+
