@@ -18,6 +18,7 @@ This project presents a Linux-based automation system designed to enhance system
  📂 Project Structure
  
  📦 linux-automation-project  # The root project folder
+ 
  ┣ 📂 docs                    # A folder for documentation files
  ┃ ┗ 📜 software_design.md    # A file inside 'docs' containing software architecture documentation
  ┣ 📂 scripts                 # A folder for shell scripts
